@@ -1,11 +1,14 @@
-EXP 1(C) : Analysis of audio signal for noise removal
-AIM:
+
+# EXP 1(C) : Analysis of audio signal for noise removal
+
+# AIM: 
 To analyse an audio signal and remove noise
 
-APPARATUS REQUIRED:
-PC installed with SCILAB.
+# APPARATUS REQUIRED:  
+PC installed with SCILAB. 
 
-PROGRAM:
+# PROGRAM: 
+```
 # ==============================
 # AUDIO NOISE REMOVAL & SEPARATION
 # ==============================
@@ -109,17 +112,22 @@ def plot_spec(signal, sr, title):
 plot_spec(noisy, sr, "Spectrogram of Noisy Audio")
 plot_spec(reduced, sr, "Spectrogram of Denoised Audio")
 plot_spec(estimated_noise, sr, "Spectrogram of Extracted Noise")
+```
+# ORIGINAL CLEAN AUDIO:
+[mixkit-small-crowd-laugh-and-applause-422.wav](https://github.com/user-attachments/files/22464300/mixkit-small-crowd-laugh-and-applause-422.wav)
+# NOISE SAMPLE:
+[download.wav](https://github.com/user-attachments/files/22464311/download.wav)
+# NOISE MERGED AUDIO:
+[download (1).wav](https://github.com/user-attachments/files/22464315/download.1.wav)
+# EXTRACTED NOISE REMOVAL:
+[download (3).wav](https://github.com/user-attachments/files/22464375/download.3.wav)
 
-Original Clean Audio
-good-morning-242169.mp3
+# OUTPUT:
+<img width="1392" height="473" alt="Screenshot 2025-09-22 161519" src="https://github.com/user-attachments/assets/924c908b-9392-47b2-bfdd-f01d10551f97" />
 
-Noise Sample
-intro-noise-131718.mp3
+<img width="1115" height="785" alt="Screenshot 2025-09-22 161628" src="https://github.com/user-attachments/assets/d0218fe4-f7b6-443b-98ab-546e8c547536" />
+<img width="1183" height="451" alt="Screenshot 2025-09-22 161637" src="https://github.com/user-attachments/assets/33af2517-8c52-4497-84c5-885bff439f3e" />
+<img width="1176" height="735" alt="Screenshot 2025-09-22 161645" src="https://github.com/user-attachments/assets/2df6cea1-b6b3-4906-a42b-19fe23d70754" />
 
-Noisy (Merged) Audio
-noisy merged audio.wav
-
-Extracted Noise removed
-Extracted Noise removed.wav
-
-OUTPUT:
+# RESULT: 
+  Thus,the Analysis of audio signal for noise removal is verified
